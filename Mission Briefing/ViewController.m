@@ -24,21 +24,21 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
+    
     //
     // 1. These three UI elements need to be emptied on launch
     //    Hint: there is a string literal that represents empty
     //
     
-//    [self.agentNameTextField setText:];
-//    self.greetingLabel.text = ;
-//    self.missionBriefingTextView.text = ;
+    //    [self.agentNameTextField setText:];
+    //    self.greetingLabel.text = ;
+    //    self.missionBriefingTextView.text = ;
     
     [self.agentNameTextField setText:nil];
     self.greetingLabel.text = nil;
     self.missionBriefingTextView.text = nil;
-        
-           
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -76,7 +76,7 @@
         agentGreeting = [agentGreeting stringByAppendingString:lastname];
         
         self.greetingLabel.text = agentGreeting ;
-      
+        
         //
         // 4. The mission briefing textview needs to be populated with the briefing from HQ, but it must also include the last
         //    name of the agent that logged in. You will notice in the text a "%@" string after the word "Agent". This
@@ -98,7 +98,12 @@
         //    Once you have the color object, you should be able to set the view's background color to this object.
         //
         
-        UIColor *authenticatedBackgroundColor = nil;
+        UIColor *authenticatedBackgroundColor =[UIColor colorWithRed: (0.585)
+                                                               green:(0.78)
+                                                                blue:(0.188)
+                                                               alpha:(1)];
+        self.view.backgroundColor = authenticatedBackgroundColor;
+        
         // Additional step to set the above color object to self.view's background color
     }
     else
@@ -112,7 +117,8 @@
         //
         //    Once you have the color object, you should be able to set the view's background color to this object.
         //
-        UIColor *accessDeniedBackgroundColor = nil;
+        UIColor *accessDeniedBackgroundColor = [UIColor colorWithRed: (0.78) green:(0.188) blue:(0.188) alpha:(1)];
+        self.view.backgroundColor = accessDeniedBackgroundColor;
         // Additional step to set the above color object to self.view's background color
     }
 }

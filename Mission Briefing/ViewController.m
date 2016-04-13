@@ -120,6 +120,7 @@
         UIColor *accessDeniedBackgroundColor = [UIColor colorWithRed: (0.78) green:(0.188) blue:(0.188) alpha:(1)];
         self.view.backgroundColor = accessDeniedBackgroundColor;
         // Additional step to set the above color object to self.view's background color
+        //test line test comment
     }
 }
 

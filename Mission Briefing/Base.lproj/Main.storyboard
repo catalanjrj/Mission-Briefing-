@@ -44,14 +44,14 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qZC-WU-mTE" userLabel="Mission Briefing Text View">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qZC-WU-mTE" userLabel="Mission Briefing Text View">
                                 <rect key="frame" x="59" y="230" width="480" height="150"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="TIYLogo" translatesAutoresizingMaskIntoConstraints="NO" id="9pW-Fv-yl1">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TIYLogo" translatesAutoresizingMaskIntoConstraints="NO" id="9pW-Fv-yl1">
                                 <rect key="frame" x="200" y="390" width="200" height="172"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="4N1-LB-LpH"/>
@@ -82,7 +82,7 @@
                             <constraint firstItem="8O7-tP-wex" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="28" id="kc9-Rc-nkc"/>
                             <constraint firstItem="7cm-88-qFf" firstAttribute="centerX" secondItem="ccU-ve-nuM" secondAttribute="centerX" constant="1" id="nZ8-GF-dlq"/>
                             <constraint firstItem="8O7-tP-wex" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="10" id="pHb-oi-b1F"/>
-                            <constraint firstItem="qZC-WU-mTE" firstAttribute="top" secondItem="k6s-Cc-dbR" secondAttribute="bottom" constant="10" id="rXk-eM-qcf"/>
+                            <constraint firstItem="qZC-WU-mTE" firstAttribute="top" secondItem="k6s-Cc-dbR" secondAttribute="bottom" constant="9" id="rXk-eM-qcf"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">

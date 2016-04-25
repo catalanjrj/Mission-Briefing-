@@ -72,7 +72,7 @@
         
         // Additional step(s) to remove only the last name
         NSString *agentGreeting = @"Good Evening, Agent ";
-        NSString *lastname = [agentName componentsSeparatedByString:@" "][1];
+        NSString *lastname = [agentName componentsSeparatedByString:@" "][0];
         agentGreeting = [agentGreeting stringByAppendingString:lastname];
         
         self.greetingLabel.text = agentGreeting ;
